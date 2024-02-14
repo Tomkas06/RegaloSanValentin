@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine Day Card</title>
+    <title>Carta de San Valentín</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/bxs-heart.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -20,7 +21,12 @@
     <div class="shadow"></div>
     
   </div>
+  <script>
+    const carta = document.getElementById('carta');
 
-  <script src="/script.js"></script>
+    carta.addEventListener('click', function(){
+      alert("Te amo mi amor");
+    });
+  </script>
 </body>
 </html>
